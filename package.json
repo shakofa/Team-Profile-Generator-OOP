@@ -1,0 +1,27 @@
+{
+  "name": "Team-Profile-Generator-OOP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakofa/Team-Profile-Generator-OOP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakofa/Team-Profile-Generator-OOP/issues"
+  },
+  "homepage": "https://github.com/shakofa/Team-Profile-Generator-OOP#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
