@@ -2,7 +2,7 @@
 const manager = require("../lib/manager");
 
 test("can set officeNumber via constructor", () => {
-    const testValue = "officeNumber";
+    const testValue = "89";
 
     //name, id and email set in parent class constructor testing. we just test the office number 
 
@@ -12,7 +12,7 @@ test("can set officeNumber via constructor", () => {
 
 
 test("getofficeNumber should return \"officeNumber\"", () => {
-    const testValue = "officeNumber";
+    const testValue = "89";
     const a = new manager("Foo", 1, "example@test.com", testValue);
     expect(a.getOfficeNumber()).toBe(testValue);
 });
